@@ -1,9 +1,9 @@
 {
     "HOST": "0.0.0.0",
-    "PORT" : 8888,
+    "PORT" : 8899,
     "RULES" : [
         {
-            "uri":"",
+            "uri":"http://tcmobileapitest1.17usoft.com/hotel/queryhandler.ashx",
             "hold_key":"request.header.serviceName",
             "hold_value":"addtrend",
             "request_file":"addtrend_request.json",
